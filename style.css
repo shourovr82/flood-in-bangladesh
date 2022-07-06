@@ -1,6 +1,8 @@
 body {
    margin: 0;
    font-family: 'Vesper Libre', serif;
+   align-items: center;
+   justify-content: center;
 }
 
 .heading-banner {
@@ -64,8 +66,8 @@ body {
    font-size: 18px;
    font-weight: 600;
    margin-top: -20px;
+   padding: 0 20rem;
 }
-
 
 
 
@@ -97,4 +99,74 @@ body {
 
 .second h3 {
    color: green;
+}
+
+
+
+
+
+.input-mail {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.input-email {
+   width: 70%;
+   text-align: center;
+   height: 5vh;
+   border: none;
+   border-bottom: 1px solid rgba(0, 128, 0, 0.459);
+   font-size: 20px;
+}
+
+.amount-button {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.amount-btn {
+   color: #fff;
+   font-size: 1.2rem;
+   margin-top: 50px;
+   text-decoration: none;
+   background-color: green;
+   padding: 5px 20px;
+   border-radius: 5px;
+}
+
+.container {
+   display: flex;
+   margin: 5rem 4rem;
+}
+
+.service-plan {
+   background-color: #444;
+   margin: 1rem;
+   padding: 1.5rem;
+   border-radius: 5px;
+   box-shadow: 16px 12px 52px -33px rgb(18 186 250 / 40%);
+}
+
+.service-plan.left {
+   background-color: rgb(255 141 0 / 16%);
+}
+
+.service-plan.center {
+   background-color: rgb(19 175 81 / 15%);
+}
+
+.service-plan.right {
+   background-color: #dce2e9;
+}
+
+.icon {
+   font-size: 50px;
+}
+
+#service-p {
+   color: rgba(0, 0, 0, 0.568);
 }
